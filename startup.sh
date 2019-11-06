@@ -1,7 +1,7 @@
 #!/bin/bash
 
 printf "Have to install a few things \n"
-apt install -y mailutils && apt install -y git
+apt install -y mailutils
 
 #Task Scheduler for starting CronTab
 printf "\n"

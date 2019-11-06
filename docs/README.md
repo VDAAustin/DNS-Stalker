@@ -53,11 +53,11 @@ Requirements (Needs Updating)
 DNS-Stalker
 Built on Ubuntu 18.04.06 Desktop
 ```
-1. sudo apt update && apt upgrade && apt install mailutils && apt install git
+1. sudo apt install git
 2. cd /opt/
 7. git clone https://github.com/VDA-Labs/DNS-Stalker
 8. cd /opt/DNS-Stalker/
-9. ./startup.sh
+9. sudo ./startup.sh
 
 ```
 
