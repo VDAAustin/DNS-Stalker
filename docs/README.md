@@ -1,5 +1,18 @@
-dnstwist
+
+DNS-Stalker
 ========
+
+ALPHA CODE!!! Ya'll be warned... it is rough..
+Forked from dnstwist. Creates a scheduler to watch domain registries for changes
+and alerts the admins.
+Wrote this all in 1 night. 
+
+
+
+#H1 cred to elceef for building dnstwist
+
+
+
 
 See what sort of trouble users can get in trying to type your domain name.
 Find similar-looking domains that adversaries can use to attack you. Can detect
@@ -32,52 +45,24 @@ Key features
 - Output in CSV and JSON format
 
 
-Requirements
+Requirements (Needs Updating)
 ------------
 
-**Linux**
+**Ubuntu 16.04.06**
 
-Linux is the primary development platform. If running Debian/Ubuntu, you can
-install all dependencies with just single command:
-
+DNS-Stalker
+Built on Ubuntu 18.04.06 Desktop
 ```
-$ sudo apt-get install python3-dnspython python3-geoip python3-whois \
-python3-requests python3-ssdeep
-```
+1. sudo apt update && apt upgrade && apt install mailutils && apt install git
+2. cd /opt/
+7. git clone https://github.com/VDA-Labs/DNS-Stalker
+8. cd /opt/DNS-Stalker/
+9. ./startup.sh
 
-Alternately, you can use Python tooling. This can be done within a virtual
-environment to avoid conflicts with other installations. However, you will
-still need a couple of libraries installed at the system level.
-
-```
-$ sudo apt-get install libgeoip-dev libffi-dev
-$ BUILD_LIB=1 pip install -r requirements.txt
-```
-
-**OSX**
-
-If you're on a Mac, you can install dnstwist via
-[Homebrew](https://github.com/Homebrew/homebrew) like so:
-
-```
-$ brew install dnstwist
-```
-
-This is going to install `dnstwist.py` as `dnstwist` only, along with all
-requirements mentioned above. The usage is the same, you can just omit the
-file extension, and the binary will be added to `PATH`.
-
-**Docker**
-
-If you use Docker, you can pull official image from Docker Hub and run it:
-
-```
-$ docker pull elceef/dnstwist
-$ docker run elceef/dnstwist domain.name
 ```
 
 
-How to use
+How to use (Needs Updating)
 ----------
 
 To start, it's a good idea to enter only the domain name as an argument. The
@@ -225,14 +210,15 @@ aggressors is unlimited.
 
 Contact
 -------
+Contact Us at [vdalabs.com](https://vdalabs.com)
 
 To send questions, comments or a chocolate, just drop an e-mail at
-[marcin@ulikowski.pl](mailto:marcin@ulikowski.pl)
+[mwilds@vdalabs.com](mailto:mwilds@vdalabs.com)
 
 You can also reach the author via:
 
-- Twitter: [@elceef](https://twitter.com/elceef)
-- LinkedIn: [Marcin Ulikowski](https://pl.linkedin.com/in/elceef)
+- Twitter: [@mattwilds](https://twitter.com/mattwilds)
+- LinkedIn: [Matthew Wilds](https://www.linkedin.com/in/matthew-wilds-41085a8b/)
 
 Any feedback is appreciated. If you were able to run the tool and you are happy
 with the results just let me know. If you have found some confirmed phishing
