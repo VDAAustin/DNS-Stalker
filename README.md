@@ -58,7 +58,7 @@ Built on Ubuntu 18.04.06 Desktop
 5. sudo apt install vim (optional, but we know VIM is the best)
 6.  cd /home/user/Downloads
 7. git clone https://github.com/VDA-Labs/DNS-Stalker
-8. cd /home/user/Downloads/dnstwist/
+8. cd /home/user/Downloads/DNS-Stalker/
 9. vim comparer.sh
 File 1 -- location
 File 2 -- Location
@@ -236,7 +236,7 @@ aggressors is unlimited.
 
 Contact
 -------
-[vdalabs.com]
+Contact Us at [vdalabs.com](https://vdalabs.com)
 
 To send questions, comments or a chocolate, just drop an e-mail at
 [mwilds@vdalabs.com](mailto:mwilds@vdalabs.com)
