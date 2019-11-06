@@ -1,11 +1,17 @@
-DNS-Stalker
 
-ALPHA CODE!!! Ya'll be warned... it is rough.. 
+DNS-Stalker
+========
+
+ALPHA CODE!!! Ya'll be warned... it is rough..
 Forked from dnstwist. creates a scheduler to watch domain registries for changes
 and alerts the admins
 
+
+
 cred to elceef for building dnstwist
-========
+
+
+
 
 See what sort of trouble users can get in trying to type your domain name.
 Find similar-looking domains that adversaries can use to attack you. Can detect
@@ -38,12 +44,33 @@ Key features
 - Output in CSV and JSON format
 
 
-Requirements
+Requirements (Needs Updating)
 ------------
 
-**Linux**
+**Ubuntu 16.04.06**
 
-Linux is the primary development platform. If running Debian/Ubuntu, you can
+DNS-Stalker
+Built on Ubuntu 18.04.06 Desktop
+1. sudo apt update
+2. sudo apt upgrade
+3. sudo apt install mailutils
+4. sudo apt install git
+5. sudo apt install vim (optional, but we know VIM is the best)
+6.  cd /home/user/Downloads
+7. git clone https://github.com/elceef/dnstwist
+8. cd /home/user/Downloads/dnstwist/
+9. vim comparer.sh
+File 1 -- location
+File 2 -- Location
+mail  -t <to sender>
+mail -a From:Admin
+inspection of outfile.txt
+10. vim scheduler.sh
+line 15,17,19,20
+11. create master.txt
+(cd "/home/ossec/Downloads/dnstwist/" && ./dnstwist.py --registered $URL > master.txt)
+
+<#Linux is the primary development platform. If running Debian/Ubuntu, you can
 install all dependencies with just single command:
 
 ```
@@ -59,31 +86,9 @@ still need a couple of libraries installed at the system level.
 $ sudo apt-get install libgeoip-dev libffi-dev
 $ BUILD_LIB=1 pip install -r requirements.txt
 ```
+#>
 
-**OSX**
-
-If you're on a Mac, you can install dnstwist via
-[Homebrew](https://github.com/Homebrew/homebrew) like so:
-
-```
-$ brew install dnstwist
-```
-
-This is going to install `dnstwist.py` as `dnstwist` only, along with all
-requirements mentioned above. The usage is the same, you can just omit the
-file extension, and the binary will be added to `PATH`.
-
-**Docker**
-
-If you use Docker, you can pull official image from Docker Hub and run it:
-
-```
-$ docker pull elceef/dnstwist
-$ docker run elceef/dnstwist domain.name
-```
-
-
-How to use
+How to use (Needs Updating)
 ----------
 
 To start, it's a good idea to enter only the domain name as an argument. The
