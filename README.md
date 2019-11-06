@@ -57,7 +57,7 @@ Built on Ubuntu 18.04.06 Desktop
 4. sudo apt install git
 5. sudo apt install vim (optional, but we know VIM is the best)
 6.  cd /home/user/Downloads
-7. git clone https://github.com/elceef/dnstwist
+7. git clone https://github.com/VDA-Labs/DNS-Stalker
 8. cd /home/user/Downloads/dnstwist/
 9. vim comparer.sh
 File 1 -- location
