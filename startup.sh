@@ -30,7 +30,7 @@ printf "sending your email to comparer.sh \n"
 sed -i "s/placeholder/$EMAIL/g" /opt/DNS-Stalker/comparer.sh
 
 sleep 1
-printf "Please enter the accont and domain to send from: \n" 
+printf "Please enter the account and domain to send from: \n" 
 printf "Example, admin@gmail.com \n"
 read DOMAIN
 
