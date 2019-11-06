@@ -236,14 +236,15 @@ aggressors is unlimited.
 
 Contact
 -------
+[vdalabs.com]
 
 To send questions, comments or a chocolate, just drop an e-mail at
-[marcin@ulikowski.pl](mailto:marcin@ulikowski.pl)
+[mwilds@vdalabs.com](mailto:mwilds@vdalabs.com)
 
 You can also reach the author via:
 
-- Twitter: [@elceef](https://twitter.com/elceef)
-- LinkedIn: [Marcin Ulikowski](https://pl.linkedin.com/in/elceef)
+- Twitter: [@mattwilds](https://twitter.com/mattwilds)
+- LinkedIn: [Matthew Wilds](https://www.linkedin.com/in/matthew-wilds-41085a8b/)
 
 Any feedback is appreciated. If you were able to run the tool and you are happy
 with the results just let me know. If you have found some confirmed phishing
