@@ -51,6 +51,7 @@ Requirements (Needs Updating)
 
 DNS-Stalker
 Built on Ubuntu 18.04.06 Desktop
+```
 1. sudo apt update
 2. sudo apt upgrade
 3. sudo apt install mailutils
@@ -70,23 +71,8 @@ line 15,17,19,20
 11. create master.txt
 (cd "/home/ossec/Downloads/dnstwist/" && ./dnstwist.py --registered $URL > master.txt)
 
-<#Linux is the primary development platform. If running Debian/Ubuntu, you can
-install all dependencies with just single command:
-
-```
-$ sudo apt-get install python3-dnspython python3-geoip python3-whois \
-python3-requests python3-ssdeep
 ```
 
-Alternately, you can use Python tooling. This can be done within a virtual
-environment to avoid conflicts with other installations. However, you will
-still need a couple of libraries installed at the system level.
-
-```
-$ sudo apt-get install libgeoip-dev libffi-dev
-$ BUILD_LIB=1 pip install -r requirements.txt
-```
-#>
 
 How to use (Needs Updating)
 ----------
